@@ -1,0 +1,32 @@
+*{
+    direction: rtl;
+}
+div{
+    width: 500px;
+    height: 415px;
+    box-shadow: inset 0 0 35px 0.5px gray;
+    border-radius: 5px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+canvas{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: rgba(173, 216, 230, 0.316);
+    margin-bottom: 10px;
+}
+button{
+    width: 110px;
+    height: 35px;
+    margin-right: 25px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+button:active{
+    background-color: gray;
+    color: white;
+}
